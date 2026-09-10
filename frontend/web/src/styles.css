@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #171d25;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: 'Manrope', sans-serif;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+}

@@ -1,0 +1,149 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <!--  LOGO -->
+    <a class="logo" routerLink="/">
+      <img
+        src="/logo.png"
+        alt="Game Archive"
+        class="logo-image"
+      >
+
+      <span class="logo-text">
+        Game Archive
+      </span>
+    </a>
+
+
+    <!--  NAVEGACIÓN -->
+    <div class="main-nav">
+
+      <!-- Explorar -->
+      <div class="nav-dropdown">
+
+        <button
+          type="button"
+          class="nav-link nav-dropdown-button"
+        >
+          <span>Explorar</span>
+          <span class="arrow">▾</span>
+        </button>
+
+        <!--
+          Más adelante acá vamos a poner
+          las opciones del menú desplegable
+        -->
+        <div class="dropdown-menu">
+
+          <a routerLink="/games">
+            Todos los juegos
+          </a>
+
+          <a routerLink="/top-rated">
+            Mejores valorados
+          </a>
+
+          <a routerLink="/popular">
+            Más populares
+          </a>
+
+          <a routerLink="/new-releases">
+            Lanzamientos recientes
+          </a>
+
+          <div class="dropdown-separator"></div>
+
+          <a routerLink="/genres">
+            Por género
+          </a>
+
+          <a routerLink="/platforms">
+            Por plataforma
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Biblioteca -->
+      <a
+        routerLink="/library"
+        class="nav-link"
+      >
+        Biblioteca
+      </a>
+
+
+      <!-- Colecciones -->
+      <a
+        routerLink="/collections"
+        class="nav-link"
+      >
+        Colecciones
+      </a>
+
+    </div>
+
+
+    <!--  BUSCADOR -->
+    <div class="search-container">
+
+      <input
+        type="text"
+        class="search-input"
+        placeholder="Buscar en el archivo..."
+        aria-label="Buscar juegos"
+      >
+
+      <button
+        type="button"
+        class="search-button"
+        aria-label="Buscar"
+      >
+        🔍
+      </button>
+
+    </div>
+
+
+    <!--  ACCIONES -->
+    <div class="nav-actions">
+
+      <div class="auth-links">
+
+        <a
+          routerLink="/register"
+          class="register-link"
+        >
+          Registrarse
+        </a>
+
+        <span class="auth-separator">
+          |
+        </span>
+
+        <a
+          routerLink="/profile"
+          class="login-link"
+        >
+          Iniciar sesión
+        </a>
+
+      </div>
+
+
+      <!-- Idioma -->
+      <div class="language">
+
+        <span>ES</span>
+
+        <span class="arrow">
+          ▾
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+</nav>
